@@ -20,6 +20,7 @@ protected:
 
 public:
     Fecha();
+    ~Fecha();
 
     /**
      * Constructor día (1~28/29/30/31), mes (1~12) y un año (aaaa).
@@ -76,6 +77,12 @@ public:
      * @return
      */
     bool esValida();
+
+    /**
+     * Retorna la instancia del objeto
+     * @return
+     */
+    Fecha getFecha();
 
 };
 

@@ -20,7 +20,7 @@ public:
 
     Persona(string nom, string ape, bool gen);
 
-    Persona(const Persona &);
+    Persona(const Persona &pers);
 
     ~Persona();
 };
