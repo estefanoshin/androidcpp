@@ -1,6 +1,10 @@
 #include "../inc/Fecha.h"
 #include <jni.h>
 
+Fecha::Fecha() {
+
+}
+
 Fecha::Fecha(unsigned int d, unsigned int m, int a) {
     dia = d;
     mes = m;
